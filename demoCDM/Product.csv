@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier
+57,ANY,ANY,ANY,ANY,Master,Product,Product,Service,,,,,,,,,,
+58,Banking,ANY,ANY,ANY,Master,Product,Product,"Service, Offering, Card, Loan, Fund, Policy, SMA",,,,,,,,,,
+59,Insurance,ANY,ANY,ANY,Master,Product,Policy,"Product, Offering, Fixed Annuity, Variable Life",,,,,,,,,,
+60,Investment,ANY,ANY,ANY,Master,Product,Product,"Service, Offering, Fund, SMA",,,,,,,,,,
+61,Professionals,ANY,ANY,ANY,Master,Product,Service,"Offering, Program, Legal, Accounting, Consulting",,,,,,,,,,
+62,Manufacturing,ANY,ANY,ANY,Master,Product,Product,"Item, Good",,,,,,,,,,
+63,Healthcare,ANY,ANY,ANY,Master,Product,Service,"Treatment, Procedure, Medication, Inpatient, Outpatient",,,,,,,,,,
+64,Education,ANY,ANY,ANY,Master,Product,Program,"Degree, Course",,,,,,,,,,

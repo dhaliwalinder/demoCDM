@@ -1,0 +1,41 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company
+9,ANY,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,1
+10,Banking,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,2
+11,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,3
+12,Investment,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,4
+13,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,5
+14,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,6
+15,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,7
+16,Education,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,8
+17,ANY,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",1
+18,Banking,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",2
+19,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",3
+20,Investment,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",4
+21,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",5
+22,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",6
+23,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",7
+24,Education,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",8
+25,ANY,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",1
+26,Banking,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",2
+27,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",3
+28,Investment,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",4
+29,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",5
+30,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",6
+31,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",7
+32,Education,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",8
+33,ANY,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",1
+34,Banking,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",2
+35,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",3
+36,Investment,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",4
+37,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",5
+38,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",6
+39,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",7
+40,Education,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",8
+41,ANY,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",1
+42,Banking,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",2
+43,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",3
+44,Investment,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",4
+45,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",5
+46,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",6
+47,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",7
+48,Education,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",8

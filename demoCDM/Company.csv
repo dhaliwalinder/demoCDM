@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier
+1,ANY,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+2,Banking,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+3,Insurance,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+4,Investment,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+5,Professionals,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+6,Manufacturing,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+7,Healthcare,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,
+8,Education,ANY,ANY,ANY,Master,Company,Company,"Company, Enterprise",,,,,,,,,,

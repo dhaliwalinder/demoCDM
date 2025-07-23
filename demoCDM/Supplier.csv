@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier
+73,ANY,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Merchant",,,,,,,,,,
+74,Banking,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,
+75,Insurance,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,
+76,Investment,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,
+77,Professionals,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,
+78,Manufacturing,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Manufacturer, Distributor, Shipper",,,,,,,,,,
+79,Healthcare,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Laboratory, Pharmacy",,,,,,,,,,
+80,Education,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, ",,,,,,,,,,
