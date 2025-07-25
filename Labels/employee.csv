@@ -1,4 +1,4 @@
-ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete_Identifier,Composite_Identifier1,Composite_Identifier2,Composite_Identifier3,Composite_Identifier4,Composite_Identifier5
 49,ANY,ANY,ANY,ANY,Master,Employee,Employee,"Staff, Personnel, Professional, Employee, Contractor",,9,17,25,33,41,,57,65,73,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
 50,Banking,ANY,ANY,ANY,Master,Employee,Personnel,"Employee, Staff, Professional, Associate, Analyst",,10,18,26,34,42,,58,66,74,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
 51,Insurance,ANY,ANY,ANY,Master,Employee,Employee,"Employee, Personnel, Staff, Agent, Underwriter",,11,19,27,35,43,,59,67,75,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
