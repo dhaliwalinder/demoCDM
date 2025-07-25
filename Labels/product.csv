@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+57,ANY,ANY,ANY,ANY,Master,Product,Product,Service,,,,,,,,,,,%Public ID::Thing,%Name,%Party,%Number,%Date,%Geography
+58,Banking,ANY,ANY,ANY,Master,Product,Product,"Service, Offering, Card, Loan, Fund, Policy, SMA",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+59,Insurance,ANY,ANY,ANY,Master,Product,Policy,"Product, Offering, Fixed Annuity, Variable Life",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+60,Investment,ANY,ANY,ANY,Master,Product,Product,"Service, Offering, Fund, SMA",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+61,Professionals,ANY,ANY,ANY,Master,Product,Service,"Offering, Program, Legal, Accounting, Consulting",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+62,Manufacturing,ANY,ANY,ANY,Master,Product,Product,"Item, Good",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+63,Healthcare,ANY,ANY,ANY,Master,Product,Service,"Treatment, Procedure, Medication, Inpatient, Outpatient",,,,,,,,,,,,,%Party,%Number,%Date,%Geography
+64,Education,ANY,ANY,ANY,Master,Product,Program,"Degree, Course",,,,,,,,,,,,,%Party,%Number,%Date,%Geography

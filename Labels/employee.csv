@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+49,ANY,ANY,ANY,ANY,Master,Employee,Employee,"Staff, Personnel, Professional, Employee, Contractor",,9,17,25,33,41,,57,65,73,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+50,Banking,ANY,ANY,ANY,Master,Employee,Personnel,"Employee, Staff, Professional, Associate, Analyst",,10,18,26,34,42,,58,66,74,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+51,Insurance,ANY,ANY,ANY,Master,Employee,Employee,"Employee, Personnel, Staff, Agent, Underwriter",,11,19,27,35,43,,59,67,75,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+52,Investment,ANY,ANY,ANY,Master,Employee,Employee,"Employee, Personnel, Staff, Trader, Portfolio Manager",,12,20,28,36,44,,60,68,76,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+53,Professionals,ANY,ANY,ANY,Master,Employee,Professional,"Employee, Personnel, Staff, Partner, Associate, Admin, Consultant, Lawyer",,13,21,29,37,45,,61,69,77,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+54,Manufacturing,ANY,ANY,ANY,Master,Employee,Employee,"Employee, Staff, Professional, Salesperson, Operator",,14,22,30,38,46,,62,70,78,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+55,Healthcare,ANY,ANY,ANY,Master,Employee,Staff,"Employee, Personnel, Professional, Physician, Nurse, Administrator",,15,23,31,39,47,,63,71,79,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number
+56,Education,ANY,ANY,ANY,Master,Employee,Staff,"Employee, Personnel, Professional, Faculty, Administrator, Teacher, Professor",,16,24,32,40,48,,64,72,80,%Public ID::Individual,%Name,%Geography,%Date,%Party,%Number

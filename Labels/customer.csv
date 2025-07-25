@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+65,ANY,ANY,ANY,ANY,Master,Customer,Customer,"Client, Consumer, Buyer, Shopper",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+66,Banking,ANY,ANY,ANY,Master,Customer,Customer,"Client, Accountholder, Borrower, Cardholder",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+67,Insurance,ANY,ANY,ANY,Master,Customer,Customer,"Policyholder, Client, Insured",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+68,Investment,ANY,ANY,ANY,Master,Customer,Client,"Customer, Investor",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+69,Professionals,ANY,ANY,ANY,Master,Customer,Client,"Engagement, Mandate",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+70,Manufacturing,ANY,ANY,ANY,Master,Customer,Customer,"Client, Buyer",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+71,Healthcare,ANY,ANY,ANY,Master,Customer,Patient,Subject,,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+72,Education,ANY,ANY,ANY,Master,Customer,Student,"Enrollee, Graduate, Undergraduate",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number

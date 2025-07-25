@@ -1,0 +1,41 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+9,ANY,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,1,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+10,Banking,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,2,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+11,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,3,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+12,Investment,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,4,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+13,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,5,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+14,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,6,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+15,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,7,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+16,Education,ANY,ANY,ANY,Master,Company Affiliate,Entity,Legal Entity,8,%Public ID::Institution,%Name::Institution,%Geography,%Date,%Party,%Number
+17,ANY,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",1,%Private ID,%Name,%Geography,%Date,%Party,%Number
+18,Banking,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",2,%Private ID,%Name,%Geography,%Date,%Party,%Number
+19,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",3,%Private ID,%Name,%Geography,%Date,%Party,%Number
+20,Investment,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",4,%Private ID,%Name,%Geography,%Date,%Party,%Number
+21,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",5,%Private ID,%Name,%Geography,%Date,%Party,%Number
+22,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",6,%Private ID,%Name,%Geography,%Date,%Party,%Number
+23,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",7,%Private ID,%Name,%Geography,%Date,%Party,%Number
+24,Education,ANY,ANY,ANY,Master,Company Affiliate,Department,"Unit, Responsibility Center, Reporting Unit, Profit Center, Cost Center",8,%Private ID,%Name,%Geography,%Date,%Party,%Number
+25,ANY,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",1,%Private ID,%Name,%Geography,%Date,%Party,%Number
+26,Banking,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",2,%Private ID,%Name,%Geography,%Date,%Party,%Number
+27,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",3,%Private ID,%Name,%Geography,%Date,%Party,%Number
+28,Investment,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",4,%Private ID,%Name,%Geography,%Date,%Party,%Number
+29,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",5,%Private ID,%Name,%Geography,%Date,%Party,%Number
+30,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",6,%Private ID,%Name,%Geography,%Date,%Party,%Number
+31,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",7,%Private ID,%Name,%Geography,%Date,%Party,%Number
+32,Education,ANY,ANY,ANY,Master,Company Affiliate,Team,"Division, Organization, Function, Project, Group, Desk",8,%Private ID,%Name,%Geography,%Date,%Party,%Number
+33,ANY,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",1,%Private ID,%Name,%Geography,%Date,%Party,%Number
+34,Banking,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",2,%Private ID,%Name,%Geography,%Date,%Party,%Number
+35,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",3,%Private ID,%Name,%Geography,%Date,%Party,%Number
+36,Investment,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",4,%Private ID,%Name,%Geography,%Date,%Party,%Number
+37,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",5,%Private ID,%Name,%Geography,%Date,%Party,%Number
+38,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",6,%Private ID,%Name,%Geography,%Date,%Party,%Number
+39,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",7,%Private ID,%Name,%Geography,%Date,%Party,%Number
+40,Education,ANY,ANY,ANY,Master,Company Affiliate,Region,"Area, Geography, Sector, Territory",8,%Private ID,%Name,%Geography,%Date,%Party,%Number
+41,ANY,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",1,%Private ID,%Name,%Geography,%Date,%Party,%Number
+42,Banking,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",2,%Private ID,%Name,%Geography,%Date,%Party,%Number
+43,Insurance,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",3,%Private ID,%Name,%Geography,%Date,%Party,%Number
+44,Investment,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",4,%Private ID,%Name,%Geography,%Date,%Party,%Number
+45,Professionals,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",5,%Private ID,%Name,%Geography,%Date,%Party,%Number
+46,Manufacturing,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",6,%Private ID,%Name,%Geography,%Date,%Party,%Number
+47,Healthcare,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",7,%Private ID,%Name,%Geography,%Date,%Party,%Number
+48,Education,ANY,ANY,ANY,Master,Company Affiliate,Location,"Office, Site, Facility, Factory",8,%Private ID,%Name,%Geography,%Date,%Party,%Number

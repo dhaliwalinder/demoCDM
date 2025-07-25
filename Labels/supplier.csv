@@ -1,0 +1,9 @@
+ID,Sector,Domain,Country,Clarifier,Being,Avatar,Object,Variant,Company,Entity,Department,Team,Region,Location,Employee,Product,Customer,Supplier,Discrete Identifier,Composite Identifier #1,Composite Identifier #2,Composite Identifier #3,Composite Identifier #4,Composite Identifier #5
+73,ANY,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Merchant",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+74,Banking,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+75,Insurance,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+76,Investment,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+77,Professionals,ANY,ANY,ANY,Master,Supplier,Vendor,Supplier,,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+78,Manufacturing,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Manufacturer, Distributor, Shipper",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+79,Healthcare,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, Laboratory, Pharmacy",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
+80,Education,ANY,ANY,ANY,Master,Supplier,Supplier,"Vendor, Partner, ",,,,,,,,,,,%Public ID,%Name,%Geography,%Date,%Party,%Number
