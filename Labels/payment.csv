@@ -1,0 +1,6 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
+92,ANY,ANY,ANY,Process,Payment,Payment,"Check, Credit Card Charge, SWIFT Payment, ACH Payment, SEPA Payment, Virtual Card Payment, Wire Transfer, Mobile Wallet Payment",
+93,ANY,ANY,ANY,Process,Payment,Authorization,Credit Card Authorization,
+94,ANY,ANY,ANY,Process,Payment,Deposit,Check Deposit,
+95,ANY,ANY,ANY,Process,Payment,Refund,Credit Card Refund,
+96,ANY,ANY,ANY,Process,Payment,Cancellation,"Returned Payment, Stop Payment",

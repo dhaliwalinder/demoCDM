@@ -1,0 +1,4 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
+107,ANY,ANY,ANY,Adjunct,Account,Account,"Client Account, Transaction Account, Activity Account",
+108,ANY,ANY,ANY,Adjunct,Account,Bank Account,"Deposit Account, Charge Account, Salary Account",
+109,ANY,ANY,ANY,Adjunct,Account,Credit Card,"CC Account, Card on File, Default Card, Debit Card",

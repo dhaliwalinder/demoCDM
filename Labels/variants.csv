@@ -1,0 +1,482 @@
+ID,Variant
+1,1099
+2,360 Feedback
+3,ACH Payment
+4,Accountholder
+5,Accounting
+6,Accrual Reversal
+7,Acknowledgement
+8,Activity Account
+9,Additional Benefit
+10,Admin
+11,Administrator
+12,Advice
+13,Advisor
+14,Agency
+15,Agent
+16,Aggregation
+17,Agreement
+18,Allocation Journal
+19,Alternate
+20,Amendment
+21,Amortization Entry
+22,Analyst
+23,Anniversary
+24,Announcement
+25,Annual Processing
+26,Annuitization
+27,Applicant
+28,Application
+29,Appraisal
+30,Archiving
+31,Area
+32,Assembly
+33,Assessment
+34,Asset
+35,Assets
+36,Assistant
+37,Associate
+38,Attendance
+39,Auction
+40,Audit
+41,Audit Adjustment
+42,Authorization
+43,Automated Entry
+44,Automobile
+45,Background Check
+46,Bank
+47,Bank Holiday
+48,Benchmark
+49,Beneficiary
+50,Benefit
+51,Benificiary
+52,Bid
+53,Bidder
+54,Bill
+55,Billable
+56,Bond
+57,Bonus
+58,Booking
+59,Boolean
+60,Borrower
+61,Broker
+62,Budget
+63,Buyer
+64,CC Account
+65,COBRA Notice
+66,Calculation
+67,Calendars
+68,Campaign
+69,Campaign Report
+70,Cancellation
+71,Candiate
+72,Capital Call
+73,Capture
+74,Car
+75,Card
+76,Card on File
+77,Cardholder
+78,Carrier
+79,Carrier Assignment
+80,Case
+81,Cash
+82,Cash Position Review
+83,Cash Surrender
+84,Catalog
+85,Change
+86,Channel
+87,Charge
+88,Charge Account
+89,Chargeoff
+90,Chart of Accounts
+91,Chat
+92,Check
+93,Check Deposit
+94,Choices
+95,Clearing
+96,Client
+97,Client Account
+98,Close Signoff
+99,CoBorrower
+100,Commisioning
+101,Company
+102,Complaint
+103,Compliance Report
+104,Component
+105,Confirmation
+106,Consent
+107,Consolidation TopSide Entry
+108,Constraints
+109,Consultant
+110,Consulting
+111,Consumer
+112,Contract
+113,Conversion Rate
+114,Correction
+115,Correspondence
+116,Cost Center
+117,Counterparty
+118,Course
+119,Court
+120,Coverage Provider
+121,Creation
+122,Credit
+123,Credit Card Authorization
+124,Credit Card Charge
+125,Credit Card Refund
+126,Credit Memo
+127,Criteria
+128,Cultivation
+129,Custodian
+130,Customer
+131,Cutoff Accrual Journal
+132,Deactivation
+133,Dealer
+134,Death Benefit
+135,Death Claim
+136,Debit
+137,Debit Card
+138,Default Card
+139,Deferral
+140,Deferred Revenue Postingg
+141,Degree
+142,Delivery
+143,Demand
+144,Departure
+145,Dependent
+146,Deployment
+147,Deposit Account
+148,Depository
+149,Depreciation Journal
+150,Derivative
+151,Desk
+152,Diagnosis
+153,Diligence
+154,Dimensions
+155,Directory
+156,Discounts
+157,Distributor
+158,Division
+159,Drustore
+160,Due
+161,EFT Premium
+162,Edit
+163,Eliminatino Journal
+164,Employee
+165,Engagement
+166,Enrollee
+167,Enrollment
+168,Enterprise
+169,Entries
+170,Entry
+171,Equity
+172,Escalation
+173,Estimate
+174,Examination
+175,Exchange
+176,Exchange Rate
+177,Execution
+178,Exempt. NonExempt
+179,Exemption
+180,Exit
+181,Facility
+182,Factor
+183,Factory
+184,Faculty
+185,Feature Change' Spousal Continuation
+186,Features
+187,Federal Holiday
+188,Fee
+189,Filing
+190,Financial Institution
+191,Financial Summary
+192,Fine
+193,Finished Goods
+194,Fixed Annuity
+195,Forecast
+196,Framework
+197,Free Look Cancellation
+198,Function
+199,Functions
+200,Fund
+201,Funding Event
+202,Funding Instruction
+203,Funds Tansfer
+204,GLWB
+205,GLWB Phase Change
+206,General Ledger
+207,Generation
+208,Geography
+209,Good
+210,Graduate
+211,Group
+212,Guarantor
+213,Guidelines
+214,Headhunter
+215,Hold
+216,I9
+217,Impact Analysis
+218,Inbound Call
+219,Incentive
+220,Incidental
+221,Index
+222,Initial Premium
+223,Initiative
+224,Inpatient
+225,Input
+226,Inspection
+227,Inspection Scheduling
+228,Instrument
+229,Insured
+230,Insurer
+231,Intangibles
+232,Intercompany Entry
+233,Intercompany Journal
+234,Interest Rate
+235,Interview
+236,Investigation
+237,Investment Vehicle
+238,Investor
+239,Invite
+240,Invoice
+241,Issue
+242,Issuer
+243,Item
+244,Job
+245,Jurisdiction
+246,Laboratory
+247,Launch Scheduling
+248,Lawyer
+249,Lead
+250,Leave
+251,Ledgder Posting
+252,Ledger
+253,Ledger Trial Report
+254,Legal
+255,Legal Entity
+256,Liabilities
+257,Limits
+258,Linking
+259,Liquidity Transfer
+260,List
+261,Listing
+262,Loan
+263,Logging
+264,Login
+265,Mandate
+266,Manual Entry
+267,Manufacturer
+268,Mapping
+269,Market
+270,Marketplace
+271,Matching
+272,Materials
+273,Medication
+274,Merchant
+275,Message
+276,Method
+277,Mobile Wallet Payment
+278,Modification
+279,Monitoring
+280,Nominee
+281,Notification
+282,Nurse
+283,Offer Letter
+284,Offering
+285,Office
+286,One-Time Withdrawal
+287,Operator
+288,Opportunity
+289,Optimization
+290,Order
+291,Organization
+292,Originator
+293,Outbound Call
+294,Outlay
+295,Outpatient
+296,Outreach
+297,Override
+298,PTO
+299,Part
+300,Partner
+301,Payables
+302,Payer
+303,Payout
+304,Payroll
+305,Payroll Posting
+306,Penalty
+307,Permissions
+308,Personnel
+309,Petition
+310,Pharmacy
+311,Physician
+312,Placement
+313,Plan
+314,Planned Premium
+315,Policy
+316,Policyholder
+317,Portfolio Manager
+318,Position
+319,Posting
+320,Postings
+321,Preferences
+322,Prerequisites
+323,Price
+324,Prices
+325,Pricing
+326,Procedure
+327,Processing
+328,Processor
+329,Procurement Order
+330,Product
+331,Professional
+332,Professor
+333,Profit Center
+334,Program
+335,Project
+336,Prompt
+337,Properties
+338,Proposal
+339,Prospect
+340,Provision
+341,Provisioning
+342,Public Holiday
+343,Publication
+344,Purchase
+345,Purchase Lot
+346,Qualified Plan Change
+347,Quotation
+348,Quote
+349,RCA
+350,Rank
+351,Rate
+352,Rate Renewal
+353,Ratecard
+354,Rating
+355,Receipt
+356,Receivables
+357,Reclassification
+358,Recommendation
+359,Reconciliation
+360,Reconciliation Adjustment
+361,RefID
+362,RefList
+363,References
+364,Registration
+365,Regulator
+366,Rejection Email
+367,Release
+368,Reminder
+369,Remittance
+370,Removal
+371,Renewal
+372,Reporting Unit
+373,Representative
+374,Request
+375,Required Minimum Distribution
+376,Requirement
+377,Requisition
+378,Reserves
+379,Resignation
+380,Response
+381,Responsibility Center
+382,Resting Facility
+383,Restrictions
+384,Returned Payment
+385,Reversal
+386,Review
+387,Role Assignment
+388,Rollup
+389,Routing
+390,SEPA Payment
+391,SMA
+392,SMS
+393,SWIFT Payment
+394,Salary
+395,Salary Account
+396,Sales Order
+397,Sales Tax
+398,Salesperson
+399,Schedules
+400,Scoring
+401,Screening
+402,Sector
+403,Selection
+404,Selections
+405,Server
+406,Service
+407,Session Scheduling
+408,Setup
+409,Shipment
+410,Shipper
+411,Shipping Alert
+412,Shopper
+413,Signing
+414,Signoff
+415,Site
+416,Slip
+417,Software
+418,Specifications
+419,Split
+420,Staff
+421,Standard
+422,Statement
+423,Stock
+424,Stop Payment
+425,Storing
+426,SubLedger
+427,Subject
+428,Submission
+429,Subscriber
+430,Supplier
+431,Surveillance
+432,Survey
+433,Swap
+434,Systematic Withdrawal
+435,Tagging
+436,Tariff
+437,Tax Journal
+438,Tax Rate
+439,Teacher
+440,Tender
+441,Termination
+442,Terms
+443,Territory
+444,Testing
+445,Ticket
+446,Timeline
+447,Timetable
+448,Tracking
+449,Trader
+450,Trading Lot
+451,Transaction
+452,Transaction Account
+453,Treatment
+454,Trial Balance
+455,Trial Balance Review
+456,Undergraduate
+457,Underwriter
+458,Unit
+459,Unplanned Premium
+460,Update
+461,Upgrade
+462,User
+463,VAT
+464,Validation
+465,Values allowed
+466,Variable Life
+467,Vehicle
+468,Vendor
+469,View
+470,Virtual Card Payment
+471,Visit
+472,W4
+473,WIP
+474,Wage
+475,Website
+476,Welcome Email
+477,Wire Transfer
+478,Withdrawal
+479,Work Order
+480,Writeoff
+481,indication

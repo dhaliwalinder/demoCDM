@@ -1,0 +1,3 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
+119,ANY,ANY,ANY,Roster,List,Static,"List, Boolean, Values allowed",
+120,ANY,ANY,ANY,Roster,List,Dynamic,"References, RefList, RefID",

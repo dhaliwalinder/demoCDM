@@ -1,0 +1,8 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
+29,ANY,ANY,ANY,Mate,Register,Register,"Ledger, General Ledger, SubLedger, Receivables, Payables, Payroll, Cash, Assets, Liabilities, Intangibles, Equity, Reserves",
+30,ANY,ANY,ANY,Mate,Register,Chart,Chart of Accounts,
+31,ANY,ANY,ANY,Mate,Register,Trial,"Trial Balance, Ledger Trial Report",
+32,ANY,ANY,ANY,Mate,Register,Transaction,"Postings, Entries",
+33,ANY,ANY,ANY,Mate,Register,Lot,"Purchase Lot, Trading Lot",
+34,ANY,ANY,ANY,Mate,Register,Inventory,"Stock, Materials, Finished Goods, WIP",
+35,ANY,ANY,ANY,Mate,Register,Holding,Position,

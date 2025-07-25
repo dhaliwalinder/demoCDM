@@ -1,0 +1,7 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
+13,ANY,ANY,ANY,Mate,Thing,Ingredient,"Part, Component, Assembly, Benefit, Job, Catalog, Directory",
+14,ANY,ANY,ANY,Mate,Thing,System,"Software, Server, Processor, Application, Website",
+15,ANY,ANY,ANY,Mate,Thing,Program,"Campaign, Initiative, Project, Job",
+16,ANY,ANY,ANY,Mate,Thing,Document,"Contract, Agreement,",
+17,ANY,ANY,ANY,Mate,Thing,Security,"Instrument, Asset, Investment Vehicle, Stock, Bond, Derivative",
+18,ANY,ANY,ANY,Mate,Thing,System,"Vehicle, Car, Automobile",
