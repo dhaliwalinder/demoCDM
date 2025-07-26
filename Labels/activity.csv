@@ -1,3 +1,4 @@
+ID,Sector,Domain,Country,Being,Avatar,Object,Variant,
 36,ANY,ANY,ANY,Process,Activity,Activity,"Ticket, Enrollment, Change, Renewal, Posting",
 37,ANY,ANY,ANY,Process,Activity,Initiation,"Requisition, Request, Setup, Creation, Petition, Proposal, indication, Opportunity, Recommendation,  Complaint, Ticket, Case",
 38,ANY,ANY,ANY,Process,Activity,Action,"Selection, Assembly, Swap, Hold, Entry",
