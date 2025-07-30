@@ -1,0 +1,600 @@
+Sector,Domain,Country,Object Type,Part,Group,Variable
+ANY,ANY,ANY,ANY,Identifier,Vulqan ID,DB ID
+ANY,ANY,ANY,ANY,Identifier,Vulqan ID,Caption
+ANY,ANY,ANY,ANY,Identifier,Vulqan ID,Z ID
+ANY,ANY,ANY,ANY,Identifier,Name,Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Name Prefix
+ANY,ANY,ANY,Individual,Identifier,Name Individual,First Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Middle Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Last Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Name Suffix
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Full Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Complete Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Common Name
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Nickname
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Preferred Pronoun
+ANY,ANY,ANY,Individual,Identifier,Name Individual,Salutation
+ANY,ANY,ANY,Institution,Identifier,Name Institution,Legal Name
+ANY,ANY,ANY,Institution,Identifier,Name Institution,Entity Name
+ANY,ANY,ANY,Institution,Identifier,Name Institution,Simple Name
+ANY,ANY,ANY,Institution,Identifier,Name Institution,Alias
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA #
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA Name
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA City
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA State
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA County
+ANY,ANY,ANY,Institution,Identifier,Name DBA,DBA Country
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Product Name
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Service Name
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Long Name
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Short Name
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Singular Name
+ANY,ANY,ANY,Thing,Identifier,Name Thing,Plural Name
+ANY,ANY,ANY,Institution,Identifier,Public ID,EIN
+ANY,ANY,ANY,Institution,Identifier,Public ID,LEI
+ANY,ANY,ANY,Individual,Identifier,Public ID,Military ID
+ANY,ANY,ANY,Individual,Identifier,Public ID,NINO
+ANY,ANY,ANY,ANY,Identifier,Public ID,PAN
+ANY,ANY,ANY,Institution,Identifier,Public ID,Sales Tax ID
+ANY,ANY,ANY,Individual,Identifier,Public ID,SIN
+ANY,ANY,ANY,Individual,Identifier,Public ID,SSN
+ANY,ANY,ANY,Person,Identifier,Public ID,Tax ID
+ANY,ANY,ANY,Person,Identifier,Public ID,TIN
+ANY,ANY,ANY,Institution,Identifier,Public ID,VAT
+ANY,ANY,ANY,Individual,Identifier,Passport,Passport #
+ANY,ANY,ANY,Individual,Identifier,Passport,Passport Country
+ANY,ANY,ANY,Individual,Identifier,Passport,Passport Issuance Date
+ANY,ANY,ANY,Individual,Identifier,Passport,Passport Expiration Date
+ANY,ANY,ANY,Individual,Identifier,Drivers License,Drivers License #
+ANY,ANY,ANY,Individual,Identifier,Drivers License,Drivers License State
+ANY,ANY,ANY,Individual,Identifier,Drivers License,Drivers License Country
+ANY,ANY,ANY,Individual,Identifier,Drivers License,Drivers License Issuance Date
+ANY,ANY,ANY,Individual,Identifier,Drivers License,Drivers License Expiration Date
+ANY,ANY,ANY,Security,Identifier,Security ID,Ambest ID
+ANY,ANY,ANY,Security,Identifier,Security ID,Bloomberg ID
+ANY,ANY,ANY,Security,Identifier,Security ID,CINS
+ANY,ANY,ANY,Security,Identifier,Security ID,CUSIP
+ANY,ANY,ANY,Security,Identifier,Security ID,DBRS ID
+ANY,ANY,ANY,Security,Identifier,Security ID,DR SEDOL
+ANY,ANY,ANY,Security,Identifier,Security ID,Factset ID
+ANY,ANY,ANY,Security,Identifier,Security ID,ISIN
+ANY,ANY,ANY,Security,Identifier,Security ID,LIN ID
+ANY,ANY,ANY,Security,Identifier,Security ID,MAID
+ANY,ANY,ANY,Security,Identifier,Security ID,MBS Pool ID
+ANY,ANY,ANY,Security,Identifier,Security ID,OCC Symbol
+ANY,ANY,ANY,Security,Identifier,Security ID,OPRA ID
+ANY,ANY,ANY,Security,Identifier,Security ID,PPN ID
+ANY,ANY,ANY,Security,Identifier,Security ID,SEDOL
+ANY,ANY,ANY,Security,Identifier,Security ID,Ticker
+ANY,ANY,ANY,Payment,Identifier,Payment ID,BIC
+ANY,ANY,ANY,Payment,Identifier,Payment ID,Chips UID
+ANY,ANY,ANY,Payment,Identifier,Payment ID,Clearstream ID
+ANY,ANY,ANY,Payment,Identifier,Payment ID,Connected BIC
+ANY,ANY,ANY,Payment,Identifier,Payment ID,DTC ID
+ANY,ANY,ANY,Payment,Identifier,Payment ID,Euroclear ID
+ANY,ANY,ANY,Payment,Identifier,Payment ID,IBAN
+ANY,ANY,ANY,Payment,Identifier,Payment ID,PSET BIC
+ANY,ANY,ANY,Payment,Identifier,Payment ID,SWIFT
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Number
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Type
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Routing Number
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Issuer
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Holder
+ANY,ANY,ANY,Bank Account,Identifier,Bank Account,Bank Account Branch ID
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Number
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Name On Card
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card CVV
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Expiration Month
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Expiration Year
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Address
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Postal Code
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Type
+ANY,ANY,ANY,Credit Card,Identifier,Credit Card,Credit Card Issuer
+ANY,ANY,ANY,ANY,Identifier,Proprietary ID,Account Number
+ANY,ANY,ANY,ANY,Identifier,Proprietary ID,Reference Number
+ANY,ANY,ANY,ANY,Identifier,Proprietary ID,Serial Number
+ANY,ANY,ANY,ANY,Relationship,Intra-Table,Parent
+ANY,ANY,ANY,ANY,Relationship,Company,Legal Entity
+ANY,ANY,ANY,ANY,Relationship,Company,Department
+ANY,ANY,ANY,ANY,Relationship,Company,Team
+ANY,ANY,ANY,ANY,Relationship,Company,Region
+ANY,ANY,ANY,ANY,Relationship,Company,Business Unit
+ANY,ANY,ANY,ANY,Relationship,Company,Organization Unit
+ANY,ANY,ANY,ANY,Relationship,Company,Site
+ANY,ANY,ANY,ANY,Relationship,Company,Location
+ANY,ANY,ANY,ANY,Relationship,Employee,Manager
+ANY,ANY,ANY,ANY,Relationship,Employee,Owner
+ANY,ANY,ANY,ANY,Relationship,Employee,Supervisor
+ANY,ANY,ANY,ANY,Relationship,Employee,Sales Representative
+ANY,ANY,ANY,ANY,Relationship,Customer,Customer
+ANY,ANY,ANY,ANY,Relationship,Customer,Buyer
+ANY,ANY,ANY,ANY,Relationship,Customer,Payor
+ANY,ANY,ANY,ANY,Relationship,Product,Product
+ANY,ANY,ANY,ANY,Relationship,Product,Item
+ANY,ANY,ANY,ANY,Relationship,Supplier,Supplier
+ANY,ANY,ANY,ANY,Relationship,Supplier,Payee
+ANY,ANY,ANY,ANY,Relationship,Supplier,Vendor
+ANY,ANY,ANY,ANY,Relationship,Supplier,Ship Vendor
+ANY,ANY,ANY,ANY,Relationship,GL Account,GL Account
+ANY,ANY,ANY,ANY,Schedule,Period,Name
+ANY,ANY,ANY,ANY,Schedule,Period,Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Variable
+ANY,ANY,ANY,ANY,Schedule,Milestone,Date
+ANY,ANY,ANY,ANY,Schedule,Daily,Date
+ANY,ANY,ANY,ANY,Schedule,Daily,Variable
+ANY,ANY,ANY,ANY,Schedule,Period,Fiscal Year
+ANY,ANY,ANY,ANY,Schedule,Period,Fiscal Year Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Fiscal Year End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Fiscal Year Close Date
+ANY,ANY,ANY,ANY,Schedule,Period,Fiscal Year First Month
+ANY,ANY,ANY,ANY,Schedule,Period,Tax Year
+ANY,ANY,ANY,ANY,Schedule,Period,Tax Year Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Tax Year End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Tax Year Filing Date
+ANY,ANY,ANY,ANY,Schedule,Period,Payroll Period
+ANY,ANY,ANY,ANY,Schedule,Period,Payroll Period Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Payroll Period End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Payroll Period Pay Date
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Period
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Period Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Period End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Days Available
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Days Accrued
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Days Taken
+ANY,ANY,ANY,ANY,Schedule,Period,Vacation Days Remaining
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Period
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Period Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Period End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Days Available
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Days Taken
+ANY,ANY,ANY,ANY,Schedule,Period,Sickness Days Remaining
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period Start Date
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period End Date
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period Days
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period Average Balance
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period Rate
+ANY,ANY,ANY,ANY,Schedule,Period,Interest Period Amount
+ANY,ANY,ANY,ANY,Schedule,Milestone,Billed Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Due Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Expected Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Expiration Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Hire Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Inventory Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Last Review Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Original Hire Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Purchase Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Released Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Required Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Sales Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Service Date 
+ANY,ANY,ANY,ANY,Schedule,Milestone,Ship Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Start Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Transaction Date
+ANY,ANY,ANY,ANY,Schedule,Milestone,Work Authorization Expiry Date
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Asset Class
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Attribute
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Authority
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Bucket
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Cash Flow Classification
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Category
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Characteristic
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Class
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Classification
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Color
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Duty
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Employee Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Ethnicity
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Evaluation
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Format
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Function
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Gender
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Grade
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Group
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Grouping
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Industry
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Job Status
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Job Title
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Job Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Kind
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Legal Structure
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Level
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Marital Status
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Military Status
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Objective
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Outlook
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Part Or Full Time
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Payment Method
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Payroll Class
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Preferred Delivery Method
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Preferred Payment Method
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Priority
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Property
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Purpose
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Qualification
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Ranking
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Rating
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Rationale
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Responsibility
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Risk
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Role
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Scheme
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Sex
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Ship Method
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Skill
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Style
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Sub Level
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Title
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Vertical
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Collateral Kind
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Contract Class
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Depository Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Exercise Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Fitch Industry
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Moody'S Industry
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Rate Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,S&P Industry
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Security Type
+ANY,ANY,ANY,ANY,Tag,TypoloJi,Term Type
+ANY,ANY,ANY,ANY,Tag,GICS Sector,GICS Sector
+ANY,ANY,ANY,ANY,Tag,GICS Sector,GICS Industry Group
+ANY,ANY,ANY,ANY,Tag,GICS Sector,GICS Industry
+ANY,ANY,ANY,ANY,Tag,GICS Sector,GICS Sub Industry
+ANY,ANY,ANY,ANY,Tag,Barclays Sector,Barclays Sector
+ANY,ANY,ANY,ANY,Tag,Barclays Sector,Barclays Class 1
+ANY,ANY,ANY,ANY,Tag,Barclays Sector,Barclays Class 2
+ANY,ANY,ANY,ANY,Tag,Barclays Sector,Barclays Class 3
+ANY,ANY,ANY,ANY,Tag,Merrill Lynch Asset Class,Merrill Lynch Asset Class Level 1
+ANY,ANY,ANY,ANY,Tag,Merrill Lynch Asset Class,Merrill Lynch Asset Class Level 2
+ANY,ANY,ANY,ANY,Tag,Merrill Lynch Asset Class,Merrill Lynch Asset Class Level 3
+ANY,ANY,ANY,ANY,Tag,Merrill Lynch Asset Class,Merrill Lynch Asset Class Level 4
+ANY,ANY,ANY,ANY,Tag,Bloomberg Industry,Bloomberg Industry Sector
+ANY,ANY,ANY,ANY,Tag,Bloomberg Industry,Bloomberg Industry Group
+ANY,ANY,ANY,ANY,Tag,Bloomberg Industry,Bloomberg Industry Sub Group
+ANY,ANY,ANY,ANY,Tag,Geography,Location City
+ANY,ANY,ANY,ANY,Tag,Geography,Location State
+ANY,ANY,ANY,ANY,Tag,Geography,Location Country
+ANY,ANY,ANY,ANY,Tag,Geography,Domicile City
+ANY,ANY,ANY,ANY,Tag,Geography,Domicile State
+ANY,ANY,ANY,ANY,Tag,Geography,Domicile Country
+ANY,ANY,ANY,ANY,Tag,Geography,Tax City
+ANY,ANY,ANY,ANY,Tag,Geography,Tax State
+ANY,ANY,ANY,ANY,Tag,Geography,Tax Country
+ANY,ANY,ANY,ANY,Tag,Geography,Sales Tax Country
+ANY,ANY,ANY,ANY,Tag,Geography,Time Zone
+ANY,ANY,ANY,ANY,Tag,Flag,Disabled
+ANY,ANY,ANY,ANY,Tag,Flag,Exempt
+ANY,ANY,ANY,ANY,Tag,Flag,FOB
+ANY,ANY,ANY,ANY,Tag,Flag,Is Active
+ANY,ANY,ANY,ANY,Tag,Flag,Is Disabled
+ANY,ANY,ANY,ANY,Tag,Flag,Is Exempt
+ANY,ANY,ANY,ANY,Tag,Flag,Is Key
+ANY,ANY,ANY,ANY,Tag,Flag,Is US Citizen
+ANY,ANY,ANY,ANY,Tag,Flag,Is US Veteran
+ANY,ANY,ANY,ANY,Tag,Flag,144A
+ANY,ANY,ANY,ANY,Tag,Flag,Bab Indicator
+ANY,ANY,ANY,ANY,Tag,Flag,Brady 
+ANY,ANY,ANY,ANY,Tag,Flag,Callable 
+ANY,ANY,ANY,ANY,Tag,Flag,Convertible 
+ANY,ANY,ANY,ANY,Tag,Flag,Covenant
+ANY,ANY,ANY,ANY,Tag,Flag,Credit Watch
+ANY,ANY,ANY,ANY,Tag,Flag,Defaulted 
+ANY,ANY,ANY,ANY,Tag,Flag,Dividend
+ANY,ANY,ANY,ANY,Number,Parameter,Accrual Days
+ANY,ANY,ANY,ANY,Number,Parameter,Allowance
+ANY,ANY,ANY,ANY,Number,Parameter,Basis
+ANY,ANY,ANY,ANY,Number,Parameter,Compounding Frequency
+ANY,ANY,ANY,ANY,Number,Parameter,Consecutive Months 
+ANY,ANY,ANY,ANY,Number,Parameter,Currency
+ANY,ANY,ANY,ANY,Number,Parameter,Day Count
+ANY,ANY,ANY,ANY,Number,Parameter,Decimal Places
+ANY,ANY,ANY,ANY,Number,Parameter,Decimal Separator
+ANY,ANY,ANY,ANY,Number,Parameter,Default
+ANY,ANY,ANY,ANY,Number,Parameter,Exclusion
+ANY,ANY,ANY,ANY,Number,Parameter,Grace Period
+ANY,ANY,ANY,ANY,Number,Parameter,Maximum
+ANY,ANY,ANY,ANY,Number,Parameter,Computation Method
+ANY,ANY,ANY,ANY,Number,Parameter,Minimum
+ANY,ANY,ANY,ANY,Number,Parameter,Multiplier
+ANY,ANY,ANY,ANY,Number,Parameter,Rounding
+ANY,ANY,ANY,ANY,Number,Parameter,Spread
+ANY,ANY,ANY,ANY,Number,Parameter,Target
+ANY,ANY,ANY,ANY,Number,Parameter,Thousand Separator
+ANY,ANY,ANY,ANY,Number,Parameter,Thousand Separator Group
+ANY,ANY,ANY,ANY,Number,Parameter,Tiering By
+ANY,ANY,ANY,ANY,Number,Parameter,Tiering Type
+ANY,ANY,ANY,ANY,Number,Parameter,Unit of Measure
+Investment,ANY,ANY,ANY,Number,Parameter,Cash Spread
+Investment,ANY,ANY,ANY,Number,Parameter,Days To Settle
+Investment,ANY,ANY,ANY,Number,Parameter,Lifetime Cap
+Investment,ANY,ANY,ANY,Number,Parameter,Lifetime Floor
+Investment,ANY,ANY,ANY,Number,Parameter,Periodic Cap
+Investment,ANY,ANY,ANY,Number,Parameter,Periodic Floor
+Investment,ANY,ANY,ANY,Number,Parameter,Pik Spread
+Investment,ANY,ANY,ANY,Number,Parameter,Total Spread
+ANY,ANY,ANY,ANY,Number,Reference,Currency Reference
+ANY,ANY,ANY,ANY,Number,Reference,Interest Rate Reference
+ANY,ANY,ANY,ANY,Number,Reference,Price Reference
+ANY,ANY,ANY,ANY,Number,Reference,Terms Reference
+ANY,ANY,ANY,ANY,Number,Quantity,Hours
+ANY,ANY,ANY,ANY,Number,Quantity,Minutes
+ANY,ANY,ANY,ANY,Number,Quantity,Quantity
+ANY,ANY,ANY,ANY,Number,Quantity,Units
+ANY,ANY,ANY,ANY,Number,Quantity,Volume
+ANY,ANY,ANY,ANY,Number,Rate,Billing Rate
+ANY,ANY,ANY,ANY,Number,Rate,Conversion Ratio
+ANY,ANY,ANY,ANY,Number,Rate,Cost
+ANY,ANY,ANY,ANY,Number,Rate,Coupon Rate
+ANY,ANY,ANY,ANY,Number,Rate,Current Rate
+ANY,ANY,ANY,ANY,Number,Rate,Discount Rate
+ANY,ANY,ANY,ANY,Number,Rate,Fixed Rate
+ANY,ANY,ANY,ANY,Number,Rate,Interest Rate
+ANY,ANY,ANY,ANY,Number,Rate,Next Rate
+ANY,ANY,ANY,ANY,Number,Rate,Price
+ANY,ANY,ANY,ANY,Number,Rate,Price Percentage
+ANY,ANY,ANY,ANY,Number,Rate,Sales Tax Percentage
+ANY,ANY,ANY,ANY,Number,Rate,Tax Rate
+ANY,ANY,ANY,ANY,Number,Amount,Adjustment Amount
+ANY,ANY,ANY,ANY,Number,Amount,Amount
+ANY,ANY,ANY,ANY,Number,Amount,Amount Due
+ANY,ANY,ANY,ANY,Number,Amount,Applied Amount
+ANY,ANY,ANY,ANY,Number,Amount,Balance
+ANY,ANY,ANY,ANY,Number,Amount,Balance Remaining
+ANY,ANY,ANY,ANY,Number,Amount,Billable  Amount
+ANY,ANY,ANY,ANY,Number,Amount,Book Amount
+ANY,ANY,ANY,ANY,Number,Amount,Commitment Amount
+ANY,ANY,ANY,ANY,Number,Amount,Contract Amount
+ANY,ANY,ANY,ANY,Number,Amount,Cost Basis
+ANY,ANY,ANY,ANY,Number,Amount,Credit Amount
+ANY,ANY,ANY,ANY,Number,Amount,Credit Limit
+ANY,ANY,ANY,ANY,Number,Amount,Credit Remaining
+ANY,ANY,ANY,ANY,Number,Amount,Delivery Amount
+ANY,ANY,ANY,ANY,Number,Amount,Full Market Value
+ANY,ANY,ANY,ANY,Number,Amount,Gross Amount
+ANY,ANY,ANY,ANY,Number,Amount,Loss Amount
+ANY,ANY,ANY,ANY,Number,Amount,Market Value
+ANY,ANY,ANY,ANY,Number,Amount,Net Amount
+ANY,ANY,ANY,ANY,Number,Amount,Nominal Amount
+ANY,ANY,ANY,ANY,Number,Amount,Open Amount
+ANY,ANY,ANY,ANY,Number,Amount,Open Balance
+ANY,ANY,ANY,ANY,Number,Amount,Purchase Cost
+ANY,ANY,ANY,ANY,Number,Amount,Sales Expense
+ANY,ANY,ANY,ANY,Number,Amount,Sales Tax Total
+ANY,ANY,ANY,ANY,Number,Amount,Shipping Amount
+ANY,ANY,ANY,ANY,Number,Amount,Sub Total
+ANY,ANY,ANY,ANY,Number,Amount,Target Bonus
+ANY,ANY,ANY,ANY,Number,Amount,Tax Amount
+ANY,ANY,ANY,ANY,Number,Amount,Threshold Amount
+ANY,ANY,ANY,ANY,Number,Amount,Total
+ANY,ANY,ANY,ANY,Number,Amount,Total Amount
+ANY,ANY,ANY,ANY,Number,Amount,Total Balance
+ANY,ANY,ANY,ANY,Number,Amount,Total Value
+ANY,ANY,ANY,ANY,Number,Conversion,Base Currency
+ANY,ANY,ANY,ANY,Number,Conversion,Actual Currency
+ANY,ANY,ANY,ANY,Number,Conversion,Exchange Rate
+ANY,ANY,ANY,ANY,Number,Conversion,Converted Amount
+ANY,ANY,ANY,ANY,Number,Function,Return 1Mo
+ANY,ANY,ANY,ANY,Number,Function,Return 3Mo
+ANY,ANY,ANY,ANY,Number,Function,Return 6Mo
+ANY,ANY,ANY,ANY,Number,Function,Return 1Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 2Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 3Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 5Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 7Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 10Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 15Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 20Yr
+ANY,ANY,ANY,ANY,Number,Function,Return 30Yr
+ANY,ANY,ANY,ANY,Number,Function,Return Current
+ANY,ANY,ANY,ANY,Number,Function,Return EOM
+ANY,ANY,ANY,ANY,Number,Function,Return EOY
+ANY,ANY,ANY,ANY,Number,Function,Return LTD
+ANY,ANY,ANY,ANY,Number,Function,Return MTD
+ANY,ANY,ANY,ANY,Number,Function,Return YTD
+Investment,ANY,ANY,ANY,Number,Function,Adjusted Effective Duration
+Investment,ANY,ANY,ANY,Number,Function,Convexity
+Investment,ANY,ANY,ANY,Number,Function,CPR
+Investment,ANY,ANY,ANY,Number,Function,CV01
+Investment,ANY,ANY,ANY,Number,Function,Delta
+Investment,ANY,ANY,ANY,Number,Function,DR
+Investment,ANY,ANY,ANY,Number,Function,Duration Spread
+Investment,ANY,ANY,ANY,Number,Function,DV01
+Investment,ANY,ANY,ANY,Number,Function,Effective Convexity
+Investment,ANY,ANY,ANY,Number,Function,Effective Duration
+Investment,ANY,ANY,ANY,Number,Function,Empirical Duration
+Investment,ANY,ANY,ANY,Number,Function,Gamma
+Investment,ANY,ANY,ANY,Number,Function,IRR
+Investment,ANY,ANY,ANY,Number,Function,Mac Worst Duration
+Investment,ANY,ANY,ANY,Number,Function,Macaulay Duration
+Investment,ANY,ANY,ANY,Number,Function,Mod Worst Duration
+Investment,ANY,ANY,ANY,Number,Function,Modified Duration
+Investment,ANY,ANY,ANY,Number,Function,MTB Ratio
+Investment,ANY,ANY,ANY,Number,Function,OAD
+Investment,ANY,ANY,ANY,Number,Function,OAD Multiplier
+Investment,ANY,ANY,ANY,Number,Function,OAS
+Investment,ANY,ANY,ANY,Number,Function,Prepayment Risk
+Investment,ANY,ANY,ANY,Number,Function,PSA
+Investment,ANY,ANY,ANY,Number,Function,Rho
+Investment,ANY,ANY,ANY,Number,Function,Theta
+Investment,ANY,ANY,ANY,Number,Function,TSY OAS
+Investment,ANY,ANY,ANY,Number,Function,Vega
+Investment,ANY,ANY,ANY,Number,Function,Volatility
+Investment,ANY,ANY,ANY,Number,Function,Yield
+Investment,ANY,ANY,ANY,Number,Function,Yield To Call
+Investment,ANY,ANY,ANY,Number,Function,Yield To Maturity
+Investment,ANY,ANY,ANY,Number,Function,Yield To Worst
+Investment,ANY,ANY,ANY,Number,Function,Z Score
+Investment,ANY,ANY,ANY,Number,Function,Z Value Score
+ANY,ANY,ANY,ANY,Event,Birth,Birth City
+ANY,ANY,ANY,ANY,Event,Birth,Birth Country
+ANY,ANY,ANY,ANY,Event,Birth,Birth Date
+ANY,ANY,ANY,ANY,Event,Birth,Birth State
+ANY,ANY,ANY,ANY,Event,Education,Education #
+ANY,ANY,ANY,ANY,Event,Education,Education Date
+ANY,ANY,ANY,ANY,Event,Education,Education Start Date
+ANY,ANY,ANY,ANY,Event,Education,Education End Date
+ANY,ANY,ANY,ANY,Event,Education,Education School
+ANY,ANY,ANY,ANY,Event,Education,Education Degree
+ANY,ANY,ANY,ANY,Event,Education,Education Subject
+ANY,ANY,ANY,ANY,Event,Education,Education City
+ANY,ANY,ANY,ANY,Event,Education,Education State
+ANY,ANY,ANY,ANY,Event,Education,Education Country
+ANY,ANY,ANY,ANY,Event,Employment,Employment #
+ANY,ANY,ANY,ANY,Event,Employment,Employment City
+ANY,ANY,ANY,ANY,Event,Employment,Employment Country
+ANY,ANY,ANY,ANY,Event,Employment,Employment Date
+ANY,ANY,ANY,ANY,Event,Employment,Employment Employer
+ANY,ANY,ANY,ANY,Event,Employment,Employment End Date
+ANY,ANY,ANY,ANY,Event,Employment,Employment Job Title
+ANY,ANY,ANY,ANY,Event,Employment,Employment Start Date
+ANY,ANY,ANY,ANY,Event,Employment,Employment State
+ANY,ANY,ANY,ANY,Event,Formation,Formation Date
+ANY,ANY,ANY,ANY,Event,Formation,Formation State
+ANY,ANY,ANY,ANY,Event,Formation,Formation Country
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy #
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy Amount
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy Currency
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy End Date
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy Reason
+ANY,ANY,ANY,ANY,Event,Bankruptcy,Bankruptcy Start Date
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Number
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Name On Card
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Expiration Month
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Expiration Year
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Commercial Card Code
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Address
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Postal Code
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Transaction Type
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Input Transaction Mode
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Merchant Account Number
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Authorization Code
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Code
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Authorization Stamp
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Authorization Time
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Message
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result AVS Street
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result AVS Zip
+ANY,ANY,ANY,ANY,Event,Credit Card Transaction,Credit Card Result Security Code Match
+ANY,ANY,ANY,ANY,Directory,Address,Address #
+ANY,ANY,ANY,ANY,Directory,Address,Address
+ANY,ANY,ANY,ANY,Directory,Address,Address City
+ANY,ANY,ANY,ANY,Directory,Address,Address State
+ANY,ANY,ANY,ANY,Directory,Address,Address County
+ANY,ANY,ANY,ANY,Directory,Address,Address Province
+ANY,ANY,ANY,ANY,Directory,Address,Address Country
+ANY,ANY,ANY,ANY,Directory,Address,Address Zip
+ANY,ANY,ANY,ANY,Directory,Address,Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address,Address Full
+ANY,ANY,ANY,ANY,Directory,Address,Address Notes
+ANY,ANY,ANY,ANY,Directory,Address,Address Type
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address #
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address City
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address State
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address County
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Province
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Country
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Full
+ANY,ANY,ANY,ANY,Directory,Address Home,Home Address Notes
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address #
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address City
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address State
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address County
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Province
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Country
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Full
+ANY,ANY,ANY,ANY,Directory,Address Work,Work Address Notes
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address #
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address City
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address State
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address County
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Province
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Country
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Full
+ANY,ANY,ANY,ANY,Directory,Address Business,Business Address Notes
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address #
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address City
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address State
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address County
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Province
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Country
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Full
+ANY,ANY,ANY,ANY,Directory,Address Billing,Billing Address Notes
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address #
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address City
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address State
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Legal Address County
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address County
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Legal Address Province
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Province
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Legal Address Country
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Country
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Full
+ANY,ANY,ANY,ANY,Directory,Address Shipping,Shipping Address Notes
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address #
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address City
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address State
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address Zip
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address Postal Code
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address Full
+ANY,ANY,ANY,ANY,Directory,Address Legal,Legal Address Notes
+ANY,ANY,ANY,ANY,Directory,Phone,Phone #
+ANY,ANY,ANY,ANY,Directory,Phone,Phone Type
+ANY,ANY,ANY,ANY,Directory,Phone,Phone Number
+ANY,ANY,ANY,ANY,Directory,Phone,Mobile Phone
+ANY,ANY,ANY,ANY,Directory,Phone,Work Phone
+ANY,ANY,ANY,ANY,Directory,Phone,Home Phone
+ANY,ANY,ANY,ANY,Directory,Phone,Alternate Phone
+ANY,ANY,ANY,ANY,Directory,Phone,Pager
+ANY,ANY,ANY,ANY,Directory,Email,Email #
+ANY,ANY,ANY,ANY,Directory,Email,Email Address
+ANY,ANY,ANY,ANY,Directory,Email,Email Type
+ANY,ANY,ANY,ANY,Directory,Email,Primary Email
+ANY,ANY,ANY,ANY,Directory,Email,Alternate Email
+ANY,ANY,ANY,ANY,Directory,Social Media,#
+ANY,ANY,ANY,ANY,Directory,Social Media,Social Media Address
+ANY,ANY,ANY,ANY,Directory,Social Media,Social Media Username
+ANY,ANY,ANY,ANY,Directory,Social Media,Social Media Provider
+ANY,ANY,ANY,ANY,Directory,Website,Website
+ANY,ANY,ANY,ANY,Directory,Contact,Additional Contact #
+ANY,ANY,ANY,ANY,Directory,Contact,Additional Contact Name
+ANY,ANY,ANY,ANY,Directory,Contact,Emergency Contact
+ANY,ANY,ANY,ANY,Directory,Contact,Secondary Emergency Contact
+ANY,ANY,ANY,ANY,Directory,Contact,Alternate Contact
+ANY,ANY,ANY,ANY,Unstructured,Document,Document
+ANY,ANY,ANY,ANY,Unstructured,Document,Form
+ANY,ANY,ANY,ANY,Unstructured,Text,Description
+ANY,ANY,ANY,ANY,Unstructured,Text,Notes
+ANY,ANY,ANY,ANY,Context,Tenancy,Solution ID
+ANY,ANY,ANY,ANY,Context,Tenancy,Sub Tenant ID
+ANY,ANY,ANY,ANY,Context,Tenancy,Tenant ID
+ANY,ANY,ANY,ANY,Context,Versioning,Release ID
+ANY,ANY,ANY,ANY,Context,Versioning,Version ID
+ANY,ANY,ANY,ANY,Context,Phasing,Mode
+ANY,ANY,ANY,ANY,Context,Phasing,State
+ANY,ANY,ANY,ANY,Context,Phasing,Status
+ANY,ANY,ANY,ANY,Context,Workflow,Action #
+ANY,ANY,ANY,ANY,Context,Workflow,Alert #
+ANY,ANY,ANY,ANY,Context,Workflow,Approval #
+ANY,ANY,ANY,ANY,Context,Workflow,Rule #
+ANY,ANY,ANY,ANY,Context,Temporality,As Of Date
+ANY,ANY,ANY,ANY,Context,Migration,Migration Date
+ANY,ANY,ANY,ANY,Context,Migration,Activation Date
+ANY,ANY,ANY,ANY,Context,Migration,Deactivation Date
