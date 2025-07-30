@@ -1,0 +1,150 @@
+
+CREATE CONSTRAINT IF NOT EXISTS FOR (p:Var_Part) REQUIRE p.name IS UNIQUE;
+
+CREATE CONSTRAINT IF NOT EXISTS FOR (b:L_Boolean) REQUIRE b.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (bi:L_BooleanIs) REQUIRE bi.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (c:L_Country) REQUIRE c.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (cg7:L_CountryG7) REQUIRE cg7.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (cg20:L_CountryG20) REQUIRE cg20.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (n:L_Number) REQUIRE n.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (g:L_Grade) REQUIRE g.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (r:L_Rank) REQUIRE r.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (ra:L_Ranking) REQUIRE ra.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (m:L_Month) REQUIRE m.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (y:L_Year) REQUIRE y.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (pa:L_PeriodAnnual) REQUIRE pa.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (pq:L_PeriodQuarterly) REQUIRE pq.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (pm:L_PeriodMonthly) REQUIRE pm.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (paq:L_PeriodAnnualQuarterly) REQUIRE paq.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (pam:L_PeriodAnnualMonthly) REQUIRE pam.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (d:L_Days) REQUIRE d.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (w:L_Weeks) REQUIRE w.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (mo:L_Months) REQUIRE mo.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (et:L_EntityType) REQUIRE et.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (emt:L_EmploymentType) REQUIRE emt.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (pt:L_PayType) REQUIRE pt.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (st:L_ScheduleType) REQUIRE st.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (jt:L_JobType) REQUIRE jt.name IS UNIQUE;
+
+LOAD CSV WITH HEADERS FROM 'https://your-public-url.com/lookup_data.csv' AS row
+
+// L_Boolean
+FOREACH (ignore IN CASE WHEN row.L_Boolean IS NOT NULL AND row.L_Boolean <> '' THEN [1] ELSE [] END |
+    MERGE (b:Boolean {name: row.L_Boolean})
+)
+
+// L_Boolean Is
+FOREACH (ignore IN CASE WHEN row.`L_Boolean Is` IS NOT NULL AND row.`L_Boolean Is` <> '' THEN [1] ELSE [] END |
+    MERGE (bi:BooleanIs {name: row.`L_Boolean Is`})
+)
+
+// L_Country
+FOREACH (ignore IN CASE WHEN row.L_Country IS NOT NULL AND row.L_Country <> '' THEN [1] ELSE [] END |
+    MERGE (c:Country {name: row.L_Country})
+)
+
+// L_Country G7
+FOREACH (ignore IN CASE WHEN row.`L_Country G7` IS NOT NULL AND row.`L_Country G7` <> '' THEN [1] ELSE [] END |
+    MERGE (cg7:CountryG7 {name: row.`L_Country G7`})
+)
+
+// L_Country G20
+FOREACH (ignore IN CASE WHEN row.`L_Country G20` IS NOT NULL AND row.`L_Country G20` <> '' THEN [1] ELSE [] END |
+    MERGE (cg20:CountryG20 {name: row.`L_Country G20`})
+)
+
+// L_Number
+FOREACH (ignore IN CASE WHEN row.L_Number IS NOT NULL AND row.L_Number <> '' THEN [1] ELSE [] END |
+    MERGE (n:Number {name: toInteger(row.L_Number)})
+)
+
+// L_Grade
+FOREACH (ignore IN CASE WHEN row.L_Grade IS NOT NULL AND row.L_Grade <> '' THEN [1] ELSE [] END |
+    MERGE (g:Grade {name: row.L_Grade})
+)
+
+// L_Rank
+FOREACH (ignore IN CASE WHEN row.L_Rank IS NOT NULL AND row.L_Rank <> '' THEN [1] ELSE [] END |
+    MERGE (r:Rank {name: toInteger(row.L_Rank)})
+)
+
+// L_Ranking
+FOREACH (ignore IN CASE WHEN row.L_Ranking IS NOT NULL AND row.L_Ranking <> '' THEN [1] ELSE [] END |
+    MERGE (ra:Ranking {name: row.L_Ranking})
+)
+
+// L_Month
+FOREACH (ignore IN CASE WHEN row.L_Month IS NOT NULL AND row.L_Month <> '' THEN [1] ELSE [] END |
+    MERGE (m:Month {name: row.L_Month})
+)
+
+// L_Year
+FOREACH (ignore IN CASE WHEN row.L_Year IS NOT NULL AND row.L_Year <> '' THEN [1] ELSE [] END |
+    MERGE (y:Year {name: toInteger(row.L_Year)})
+)
+
+// L_Period Annual
+FOREACH (ignore IN CASE WHEN row.`L_Period Annual` IS NOT NULL AND row.`L_Period Annual` <> '' THEN [1] ELSE [] END |
+    MERGE (pa:PeriodAnnual {name: toInteger(row.`L_Period Annual`)})
+)
+
+// L_Period Quarterly
+FOREACH (ignore IN CASE WHEN row.`L_Period Quarterly` IS NOT NULL AND row.`L_Period Quarterly` <> '' THEN [1] ELSE [] END |
+    MERGE (pq:PeriodQuarterly {name: row.`L_Period Quarterly`})
+)
+
+// L_Period Monthly
+FOREACH (ignore IN CASE WHEN row.`L_Period Monthly` IS NOT NULL AND row.`L_Period Monthly` <> '' THEN [1] ELSE [] END |
+    MERGE (pm:PeriodMonthly {name: row.`L_Period Monthly`})
+)
+
+// L_Period Annual Quarterly
+FOREACH (ignore IN CASE WHEN row.`L_Period Annual Quarterly` IS NOT NULL AND row.`L_Period Annual Quarterly` <> '' THEN [1] ELSE [] END |
+    MERGE (paq:PeriodAnnualQuarterly {name: row.`L_Period Annual Quarterly`})
+)
+
+// L_Period Annual Monthly
+FOREACH (ignore IN CASE WHEN row.`L_Period Annual Monthly` IS NOT NULL AND row.`L_Period Annual Monthly` <> '' THEN [1] ELSE [] END |
+    MERGE (pam:PeriodAnnualMonthly {name: row.`L_Period Annual Monthly`})
+)
+
+// L_Days
+FOREACH (ignore IN CASE WHEN row.L_Days IS NOT NULL AND row.L_Days <> '' THEN [1] ELSE [] END |
+    MERGE (d:Days {name: toInteger(row.L_Days)})
+)
+
+// L_Weeks
+FOREACH (ignore IN CASE WHEN row.L_Weeks IS NOT NULL AND row.L_Weeks <> '' THEN [1] ELSE [] END |
+    MERGE (w:Weeks {name: toInteger(row.L_Weeks)})
+)
+
+// L_Months (this is distinct from L_Month, representing a duration)
+FOREACH (ignore IN CASE WHEN row.L_Months IS NOT NULL AND row.L_Months <> '' THEN [1] ELSE [] END |
+    MERGE (mo:Months {name: toInteger(row.L_Months)})
+)
+
+// L_Entity Type
+FOREACH (ignore IN CASE WHEN row.`L_Entity Type` IS NOT NULL AND row.`L_Entity Type` <> '' THEN [1] ELSE [] END |
+    MERGE (et:EntityType {name: row.`L_Entity Type`})
+)
+
+// L_Employment Type
+FOREACH (ignore IN CASE WHEN row.`L_Employment Type` IS NOT NULL AND row.`L_Employment Type` <> '' THEN [1] ELSE [] END |
+    MERGE (emt:EmploymentType {name: row.`L_Employment Type`})
+)
+
+// L_Pay Type
+FOREACH (ignore IN CASE WHEN row.`L_Pay Type` IS NOT NULL AND row.`L_Pay Type` <> '' THEN [1] ELSE [] END |
+    MERGE (pt:PayType {name: row.`L_Pay Type`})
+)
+
+// L_Schedule Type
+FOREACH (ignore IN CASE WHEN row.`L_Schedule Type` IS NOT NULL AND row.`L_Schedule Type` <> '' THEN [1] ELSE [] END |
+    MERGE (st:ScheduleType {name: row.`L_Schedule Type`})
+)
+
+// L_Job Type
+FOREACH (ignore IN CASE WHEN row.`L_Job Type` IS NOT NULL AND row.`L_Job Type` <> '' THEN [1] ELSE [] END |
+    MERGE (jt:JobType {name: row.`L_Job Type`})
+)
+```

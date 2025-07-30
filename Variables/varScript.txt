@@ -1,0 +1,17 @@
+CREATE CONSTRAINT IF NOT EXISTS FOR (p:Var_Part) REQUIRE p.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (g:Var_Group) REQUIRE g.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (v:Var_Variable) REQUIRE v.name IS UNIQUE;
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/dhaliwalinder/demoCDM/refs/heads/main/Variables/VariableData.csv'
+AS row
+MERGE (part:Var_Part {name: row.Part})
+MERGE (group:Var_Group {name: row.Group})
+MERGE (variable:Var_Variable {name: row.Variable})
+ON CREATE SET
+    variable.sector = row.Sector,
+    variable.domain = row.Domain,
+    variable.country = row.Country,
+    variable.objectType = row.`Object Type`
+
+MERGE (part)-[:HAS_GROUP]->(group)
+MERGE (group)-[:HAS_VARIABLE]->(variable);
